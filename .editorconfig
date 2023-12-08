@@ -1,0 +1,2 @@
+[*.{fs,fsx,fsi}]
+max_line_length = 80

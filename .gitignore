@@ -1,0 +1,6 @@
+obj
+bin
+Day*.*.fs
+
+/input/*
+!/input/example*.txt
