@@ -16,8 +16,9 @@ let run (argv: string array) =
     let day =
         AdventOfCode.days
         |> Array.tryFind (fun x ->
-            x.day = day && x.variant = variant
-            || ((variant = "e" || variant = "example") && x.variant = ""))
+            x.day = day
+            && (x.variant = variant
+                || ((variant = "e" || variant = "example") && x.variant = "")))
 
     match day with
     | Some day ->

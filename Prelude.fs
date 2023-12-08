@@ -59,6 +59,10 @@ module String =
     /// This is equivalent to `Array.map string string.ToCharArray()`.
     let toArray (input: string) = input.ToCharArray() |> Array.map string
 
+    /// Returns true if the string ends with the given suffix and false otherwise.
+    /// This is equivalent to `string.EndsWith`.
+    let endsWith (suffix: string) (input: string) = input.EndsWith suffix
+
 type Result<'T, 'TError> with
 
     /// Unwraps a Result<'T, 'TError> into a 'T, or throws an exception with the error message

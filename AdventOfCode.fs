@@ -70,4 +70,5 @@ let days =
        Day.New 4 Day4.part1 Day4.part2
        Day.New 5 Day5.part1 Day5.part2
        Day.New 6 Day6.part1 Day6.part2
-       Day.New 7 Day7.part1 Day7.part2 |]
+       Day.New 7 Day7.part1 Day7.part2
+       Day.New 8 Day8.part1 Day8.part2 |]

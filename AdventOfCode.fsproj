@@ -12,8 +12,8 @@
     <Compile Include="Day4.fs" />
     <Compile Include="Day5.fs" />
     <Compile Include="Day6.fs" />
-    <Compile Include="Day6.oneline.fs" />
     <Compile Include="Day7.fs" />
+    <Compile Include="Day8.fs" />
     <Compile Include="AdventOfCode.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
